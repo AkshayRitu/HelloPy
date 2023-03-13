@@ -2,7 +2,7 @@ import unittest
 
 from prog1 import summation 
 
-class Testsum(unittest.Testcase):
+class Testsum(unittest.TestCase):
   def test_list_int(self):
     data = [23,32]
     result = summation(data)
