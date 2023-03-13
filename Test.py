@@ -1,6 +1,6 @@
 import unittest
 
-from Prog1 import summation 
+from prog1 import summation 
 
 class Testsum(unittest.Testcase):
   def test_list_int(self):
